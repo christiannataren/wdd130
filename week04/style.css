@@ -1,0 +1,21 @@
+header{
+    background-color: red;
+    min-height: 2rem;
+
+}
+
+header li{
+    list-style-type: none;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+nav a {
+    padding: 1rem;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
