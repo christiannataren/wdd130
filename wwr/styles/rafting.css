@@ -1,13 +1,14 @@
 body {
     font-family: 'DM Sans', 'Verdana', 'Arial';
-    color: #165c66;
+    color: #003761;
     width: 840px;
+    background-color: white;
 }
 
 h1,
 h2 {
     font-family: 'Poetsen One', 'Verdana', "Arial";
-    color: #fe4a49;
+    color: #7a0000;
 
 }
 
@@ -25,12 +26,21 @@ h1 {
 
 .hero article {
     position: absolute;
+    opacity: 0.8;
 }
 
 .separator {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+header a {
+    color: black;
+}
+
+header a:visited {
+    color: #380066;
 }
 
 header img {
@@ -69,9 +79,9 @@ header {
     grid-column: 1/6;
 }
 
-.adventure-section p {
+.adventure-section figcaption {
     margin: 0;
-    padding: 1px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -80,6 +90,8 @@ header {
     grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-items: center;
+    background-color: #ffffff;
+    border-radius: 1rem;
 
 
 }
@@ -113,7 +125,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
-    opacity: 0.8;
+    
 
 }
 
@@ -135,7 +147,7 @@ article p {
 .hero article {
     position: absolute;
     bottom: 10px;
-    background-color: #fe4a49;
+    background-color: #4b1616;
     border-radius: 10px;
 
 }
