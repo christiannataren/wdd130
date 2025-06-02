@@ -125,7 +125,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
-    
+
 
 }
 
@@ -166,4 +166,70 @@ footer {
     justify-content: flex-end;
     align-items: center;
     width: 100%;
+}
+
+table {
+    border: 2px solid rgb(140 140 140);
+
+
+}
+.employees-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    
+    
+}
+.company-section{
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+
+}
+.employees-section h2{
+    grid-column: 1/4;
+    margin: 1em;
+}
+.employee{
+    text-align: center;
+}
+.employee img{
+    max-width: 150px;
+}
+td,
+th {
+    text-align: center;
+    padding: .5rem;
+    border: 1px solid black;
+}
+.column1{
+    grid-template-columns: 1fr 2fr;
+}
+legend{
+    font-size: 1.3em;
+    margin: 1em;
+}
+fieldset{
+    display: grid;
+}
+input{
+    padding: 0.2em;
+}
+.section-contact h2{
+    text-align: center;
+}
+form {
+    display: grid;
+}
+.form-item{
+    display: grid;
+    align-items: center;
+    padding: 0.5em;
+}
+.form-contact{
+    display: grid;
+    
+}
+.form-contact label{
+    text-align: right;
 }
