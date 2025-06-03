@@ -297,5 +297,9 @@ button {
 
 .h1-contact {
     text-align: center;
-    margin: 2rem ;
+    margin: 2rem;
+}
+
+.column2 label {
+    margin: 3px;
 }
