@@ -12,7 +12,7 @@ h2 {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -173,63 +173,129 @@ table {
 
 
 }
-.employees-section{
+
+.employees-section {
     display: grid;
     grid-template-columns: auto auto auto;
     place-items: center;
-    
-    
+
+
 }
-.company-section{
+
+.company-section {
     margin: 0 auto;
     display: grid;
     text-align: center;
 
 }
-.employees-section h2{
+
+.employees-section h2 {
     grid-column: 1/4;
     margin: 1em;
 }
-.employee{
+
+.employee {
     text-align: center;
 }
-.employee img{
+
+.employee img {
     max-width: 150px;
 }
+
 td,
 th {
     text-align: center;
     padding: .5rem;
     border: 1px solid black;
 }
-.column1{
+
+.column1 {
     grid-template-columns: 1fr 2fr;
 }
-legend{
+
+.column2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.column3 {
+    grid-template-columns: 5fr 1fr;
+}
+
+legend {
     font-size: 1.3em;
     margin: 1em;
 }
-fieldset{
+
+fieldset {
     display: grid;
 }
-input{
-    padding: 0.2em;
+
+input {
+    padding: 0.5em;
+    font-size: 1rem;
 }
-.section-contact h2{
+
+.section-contact h2 {
     text-align: center;
+    margin: 1em;
 }
+
 form {
     display: grid;
+    background-color: #F4F4F8;
+    width: 650px;
+    margin: 0 auto;
+
 }
-.form-item{
+
+.form-item {
     display: grid;
     align-items: center;
     padding: 0.5em;
 }
-.form-contact{
-    display: grid;
-    
+
+.form-contact label {
+    text-align: center;
+    font-size: 1.5rem;
 }
-.form-contact label{
+
+.column2 label {
     text-align: right;
+    font-size: 1em;
+
+}
+
+.reason {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.reason p {
+    text-align: right;
+    font-size: 1.2rem;
+    vertical-align: bottom;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #7a0000;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.h1-contact {
+    text-align: center;
+    margin: 2rem ;
 }
